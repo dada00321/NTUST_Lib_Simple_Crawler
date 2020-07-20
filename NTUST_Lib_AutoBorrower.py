@@ -1,5 +1,6 @@
 from apscheduler.schedulers.blocking import BlockingScheduler 
-import datetime, time
+import datetime
+import time
 from module.NTUST_lib_crawler import NTUST_lib_crawler
 from module.file_helper import FileHelper
 
@@ -18,25 +19,7 @@ class AutoBorrower():
         dueTimes = [info["due_time"] for info in self.book_list]
         tmpDueTimes = sorted(list(set(dueTimes)))
         return tmpDueTimes
-    '''
-    def get_tidy_lists(self):
-        dueTimes = [info["due_time"] for info in self.book_list]
-        tmpDueTimes = sorted(list(set(dueTimes)))
-        tidy_lists = [[dueTime] for dueTime in tmpDueTimes]
-        [record.append([]) for record in tidy_lists]
-        
-        tidy_startIdx = 0
-        for i in range(len(self.book_list)):
-            curr_date = tidy_lists[tidy_startIdx][0]
-            book_date = self.book_list[i]["due_time"]
-            #book_title = self.book_list[i]["title"]
-            book_info = {self.book_list[i]["bar_code"]:self.book_list[i]["title"]}
-            if book_date != curr_date:
-                tidy_startIdx += 1
-            #tidy_lists[tidy_startIdx][1].append(book_title)
-            tidy_lists[tidy_startIdx][1].append(book_info)
-        return tidy_lists
-    '''
+    
     def auto_borrow(self, specific_date):
         print("2-3.", end='')
         self.crawler.auto_borrowing(specific_date)
