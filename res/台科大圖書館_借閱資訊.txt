@@ -1,0 +1,45 @@
+1 中文自然語言處理實戰 : 聊天機器人與深度學習整合應用 / 王昊奮,邵浩等編著
+到期 20-07-29
+
+2 自然語言處理 : 用人工智慧看懂中文 / 鄭捷著
+到期 20-07-29
+
+3 深度學習 : 內行人的做法 / Josh Patterson, Adam Gibson著; 藍子軒譯
+到期 20-07-29
+
+4 Advanced programming in the UNIX environment國際中文版 / W. Richard Stevens原著; 資策會產品處譯
+到期 20-08-05
+
+5 雲端佈署的時代來臨 : 一探未來系統架構 / 張亮等著
+到期 20-08-05
+
+6 PyTorch自然語言處理 : 以深度學習建立語言應用程式 / Delip Rao,Brian McMahan著; 楊尊一譯
+到期 20-08-18
+
+7 強化學習(RL) : 使用Pytorch徹底精通 / 高揚,葉振斌著
+到期 20-08-18
+
+8 PyTorch深度學習與自然語言中文處理 = Deep learning and Chinese natural language processing with PyTorch / 邢夢來,王碩,孫洋洋編著
+到期 20-08-18
+
+9 Learning TensorFlow : a guide to building deep learning systems / Tom Hope, Yehezkel S. Resheff, and Itay Lieder.
+到期 20-08-18
+
+10 Deep learning with TensorFlow : take your machine learning knowledge to the next level with the power of TensorFlow 1.x / Giancarlo Zaccone, Md. Rezaul Karim, Ahmed Menshawy.
+到期 20-08-18
+
+11 大數據時代的資料庫處理 : Spark SQL親自動手做 / 紀涵,靖曉文,趙政達著
+到期 20-08-20
+
+12 實戰機器學習 : 使用Spark / Rajdeep Dua, Manpreet Singh Ghotra, Nick著; 江良志譯
+到期 20-08-20
+
+13 從大數據到人工智慧 : 理論及Spark實作 / 鄧立國,佟強著
+到期 20-08-20
+
+14 圖解獲利世代實戰操作手冊 = Business model generation work shop / 今津美樹著; 李靜宜譯
+到期 20-08-20
+
+15 獲利世代實戰演練入門 = Business model generation work book / 今津美樹著; 王立言譯
+到期 20-08-20
+
