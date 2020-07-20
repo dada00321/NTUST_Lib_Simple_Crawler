@@ -1,8 +1,6 @@
 import json
 class FileHelper():
     def __init__(self):
-        #self.txt_path = r"..\res\台科大圖書館_借閱資訊.txt"
-        #self.json_path = r"..\res\lib_info.json"
         self.txt_path = r"res\台科大圖書館_借閱資訊.txt"
         self.json_path = r"res\lib_info.json"
         
@@ -25,5 +23,4 @@ class FileHelper():
     def load_json(self):
         with open(self.json_path, 'r') as fp:
             data = json.load(fp)
-        #print(data)
         return data # type: list
